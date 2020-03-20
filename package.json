@@ -1,0 +1,21 @@
+{
+	"name": "@p.hondagneu.roig/shout",
+	"version": "1.0.0",
+	"description": "Say it so loudly it is displayed in the console.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/patricio-ezequiel-hondagneu-roig/shout.git"
+	},
+	"keywords": [ ],
+	"author": "Patricio Ezequiel Hondagneu Roig",
+	"license": "ISC"
+}
